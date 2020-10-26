@@ -14,7 +14,23 @@
     window.$docsify = {
       name: '小东私房技术文档中心',
       repo: '',
-      coverpage: true
+      coverpage: true,
+      loadSidebar: true,
+      //封面
+      //coverpage: true,
+      // 加载 summary.md
+      loadSidebar: 'SUMMARY.md',
+      //自动显示标题
+      autoHeader: true,
+      //自动跳转到页面顶部
+      auto2top: true,
+      //小屏设备下合并导航栏到侧边栏
+      mergeNavbar: true,
+      //搜索插件
+      search: {
+        placeholder: '搜索',
+        noData: '没有结果！',
+      },
     }
   </script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
